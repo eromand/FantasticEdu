@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F54A481EC3A8B20075EA80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F54A471EC3A8B20075EA80 /* AppDelegate.swift */; };
+		34F54A4A1EC3A8B20075EA80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F54A491EC3A8B20075EA80 /* ViewController.swift */; };
+		34F54A4D1EC3A8B20075EA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F54A4B1EC3A8B20075EA80 /* Main.storyboard */; };
+		34F54A4F1EC3A8B20075EA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F54A4E1EC3A8B20075EA80 /* Assets.xcassets */; };
+		34F54A521EC3A8B20075EA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F54A501EC3A8B20075EA80 /* LaunchScreen.storyboard */; };
+		34F54A5D1EC3A8B20075EA80 /* FantasticEduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F54A5C1EC3A8B20075EA80 /* FantasticEduTests.swift */; };
+		34F54A681EC3A8B20075EA80 /* FantasticEduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F54A671EC3A8B20075EA80 /* FantasticEduUITests.swift */; };
+		34F54A761EC3A8E40075EA80 /* FantasticEdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F54A751EC3A8E40075EA80 /* FantasticEdu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F54A591EC3A8B20075EA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F54A3C1EC3A8B10075EA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F54A431EC3A8B10075EA80;
+			remoteInfo = FantasticEdu;
+		};
+		34F54A641EC3A8B20075EA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F54A3C1EC3A8B10075EA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F54A431EC3A8B10075EA80;
+			remoteInfo = FantasticEdu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34F54A441EC3A8B20075EA80 /* FantasticEdu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticEdu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F54A471EC3A8B20075EA80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34F54A491EC3A8B20075EA80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34F54A4C1EC3A8B20075EA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F54A4E1EC3A8B20075EA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F54A511EC3A8B20075EA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F54A531EC3A8B20075EA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F54A581EC3A8B20075EA80 /* FantasticEduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticEduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F54A5C1EC3A8B20075EA80 /* FantasticEduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticEduTests.swift; sourceTree = "<group>"; };
+		34F54A5E1EC3A8B20075EA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F54A631EC3A8B20075EA80 /* FantasticEduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticEduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F54A671EC3A8B20075EA80 /* FantasticEduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticEduUITests.swift; sourceTree = "<group>"; };
+		34F54A691EC3A8B20075EA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F54A751EC3A8E40075EA80 /* FantasticEdu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticEdu.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F54A411EC3A8B10075EA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F54A551EC3A8B20075EA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F54A601EC3A8B20075EA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F54A3B1EC3A8B10075EA80 = {
+			isa = PBXGroup;
+			children = (
+				34F54A461EC3A8B20075EA80 /* FantasticEdu */,
+				34F54A5B1EC3A8B20075EA80 /* FantasticEduTests */,
+				34F54A661EC3A8B20075EA80 /* FantasticEduUITests */,
+				34F54A451EC3A8B20075EA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F54A451EC3A8B20075EA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F54A441EC3A8B20075EA80 /* FantasticEdu.app */,
+				34F54A581EC3A8B20075EA80 /* FantasticEduTests.xctest */,
+				34F54A631EC3A8B20075EA80 /* FantasticEduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F54A461EC3A8B20075EA80 /* FantasticEdu */ = {
+			isa = PBXGroup;
+			children = (
+				34F54A751EC3A8E40075EA80 /* FantasticEdu.swift */,
+				34F54A471EC3A8B20075EA80 /* AppDelegate.swift */,
+				34F54A491EC3A8B20075EA80 /* ViewController.swift */,
+				34F54A4B1EC3A8B20075EA80 /* Main.storyboard */,
+				34F54A4E1EC3A8B20075EA80 /* Assets.xcassets */,
+				34F54A501EC3A8B20075EA80 /* LaunchScreen.storyboard */,
+				34F54A531EC3A8B20075EA80 /* Info.plist */,
+			);
+			path = FantasticEdu;
+			sourceTree = "<group>";
+		};
+		34F54A5B1EC3A8B20075EA80 /* FantasticEduTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F54A5C1EC3A8B20075EA80 /* FantasticEduTests.swift */,
+				34F54A5E1EC3A8B20075EA80 /* Info.plist */,
+			);
+			path = FantasticEduTests;
+			sourceTree = "<group>";
+		};
+		34F54A661EC3A8B20075EA80 /* FantasticEduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F54A671EC3A8B20075EA80 /* FantasticEduUITests.swift */,
+				34F54A691EC3A8B20075EA80 /* Info.plist */,
+			);
+			path = FantasticEduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F54A431EC3A8B10075EA80 /* FantasticEdu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F54A6C1EC3A8B20075EA80 /* Build configuration list for PBXNativeTarget "FantasticEdu" */;
+			buildPhases = (
+				34F54A401EC3A8B10075EA80 /* Sources */,
+				34F54A411EC3A8B10075EA80 /* Frameworks */,
+				34F54A421EC3A8B10075EA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasticEdu;
+			productName = FantasticEdu;
+			productReference = 34F54A441EC3A8B20075EA80 /* FantasticEdu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F54A571EC3A8B20075EA80 /* FantasticEduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F54A6F1EC3A8B20075EA80 /* Build configuration list for PBXNativeTarget "FantasticEduTests" */;
+			buildPhases = (
+				34F54A541EC3A8B20075EA80 /* Sources */,
+				34F54A551EC3A8B20075EA80 /* Frameworks */,
+				34F54A561EC3A8B20075EA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F54A5A1EC3A8B20075EA80 /* PBXTargetDependency */,
+			);
+			name = FantasticEduTests;
+			productName = FantasticEduTests;
+			productReference = 34F54A581EC3A8B20075EA80 /* FantasticEduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F54A621EC3A8B20075EA80 /* FantasticEduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F54A721EC3A8B20075EA80 /* Build configuration list for PBXNativeTarget "FantasticEduUITests" */;
+			buildPhases = (
+				34F54A5F1EC3A8B20075EA80 /* Sources */,
+				34F54A601EC3A8B20075EA80 /* Frameworks */,
+				34F54A611EC3A8B20075EA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F54A651EC3A8B20075EA80 /* PBXTargetDependency */,
+			);
+			name = FantasticEduUITests;
+			productName = FantasticEduUITests;
+			productReference = 34F54A631EC3A8B20075EA80 /* FantasticEduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F54A3C1EC3A8B10075EA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Edu;
+				TargetAttributes = {
+					34F54A431EC3A8B10075EA80 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					34F54A571EC3A8B20075EA80 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F54A431EC3A8B10075EA80;
+					};
+					34F54A621EC3A8B20075EA80 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F54A431EC3A8B10075EA80;
+					};
+				};
+			};
+			buildConfigurationList = 34F54A3F1EC3A8B10075EA80 /* Build configuration list for PBXProject "FantasticEdu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F54A3B1EC3A8B10075EA80;
+			productRefGroup = 34F54A451EC3A8B20075EA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F54A431EC3A8B10075EA80 /* FantasticEdu */,
+				34F54A571EC3A8B20075EA80 /* FantasticEduTests */,
+				34F54A621EC3A8B20075EA80 /* FantasticEduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F54A421EC3A8B10075EA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F54A521EC3A8B20075EA80 /* LaunchScreen.storyboard in Resources */,
+				34F54A4F1EC3A8B20075EA80 /* Assets.xcassets in Resources */,
+				34F54A4D1EC3A8B20075EA80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F54A561EC3A8B20075EA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F54A611EC3A8B20075EA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F54A401EC3A8B10075EA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F54A761EC3A8E40075EA80 /* FantasticEdu.swift in Sources */,
+				34F54A4A1EC3A8B20075EA80 /* ViewController.swift in Sources */,
+				34F54A481EC3A8B20075EA80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F54A541EC3A8B20075EA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F54A5D1EC3A8B20075EA80 /* FantasticEduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F54A5F1EC3A8B20075EA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F54A681EC3A8B20075EA80 /* FantasticEduUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F54A5A1EC3A8B20075EA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F54A431EC3A8B10075EA80 /* FantasticEdu */;
+			targetProxy = 34F54A591EC3A8B20075EA80 /* PBXContainerItemProxy */;
+		};
+		34F54A651EC3A8B20075EA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F54A431EC3A8B10075EA80 /* FantasticEdu */;
+			targetProxy = 34F54A641EC3A8B20075EA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F54A4B1EC3A8B20075EA80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F54A4C1EC3A8B20075EA80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F54A501EC3A8B20075EA80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F54A511EC3A8B20075EA80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F54A6A1EC3A8B20075EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F54A6B1EC3A8B20075EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F54A6D1EC3A8B20075EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FantasticEdu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.swift.test.FantasticEdu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34F54A6E1EC3A8B20075EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FantasticEdu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.swift.test.FantasticEdu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		34F54A701EC3A8B20075EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FantasticEduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.swift.test.FantasticEduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticEdu.app/FantasticEdu";
+			};
+			name = Debug;
+		};
+		34F54A711EC3A8B20075EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FantasticEduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.swift.test.FantasticEduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticEdu.app/FantasticEdu";
+			};
+			name = Release;
+		};
+		34F54A731EC3A8B20075EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FantasticEduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.swift.test.FantasticEduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FantasticEdu;
+			};
+			name = Debug;
+		};
+		34F54A741EC3A8B20075EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FantasticEduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.swift.test.FantasticEduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FantasticEdu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F54A3F1EC3A8B10075EA80 /* Build configuration list for PBXProject "FantasticEdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F54A6A1EC3A8B20075EA80 /* Debug */,
+				34F54A6B1EC3A8B20075EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F54A6C1EC3A8B20075EA80 /* Build configuration list for PBXNativeTarget "FantasticEdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F54A6D1EC3A8B20075EA80 /* Debug */,
+				34F54A6E1EC3A8B20075EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34F54A6F1EC3A8B20075EA80 /* Build configuration list for PBXNativeTarget "FantasticEduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F54A701EC3A8B20075EA80 /* Debug */,
+				34F54A711EC3A8B20075EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34F54A721EC3A8B20075EA80 /* Build configuration list for PBXNativeTarget "FantasticEduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F54A731EC3A8B20075EA80 /* Debug */,
+				34F54A741EC3A8B20075EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F54A3C1EC3A8B10075EA80 /* Project object */;
+}
